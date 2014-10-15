@@ -1,4 +1,5 @@
 #!/bin/bash
+# Habria que revisar si vale la pena usar crc en vez de md5. es mas rápido.
 NOMBRE_DIR=`echo $PWD  |sed -e "s/^.*\/\(.*$\)/\1/g"`
 echo $NOMBRE_DIR
 rm  $NOMBRE_DIR.md5
