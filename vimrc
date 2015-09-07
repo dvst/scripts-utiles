@@ -11,3 +11,4 @@ colorscheme torte
 set expandtab
 set tabstop=5
 set scrolloff=4
+map * *``
