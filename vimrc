@@ -8,5 +8,7 @@ set autoindent
 set hls
 set nu
 colorscheme torte
-set expandtab
-set tabstop=5
+set expandtab " Don't set tabs, but spaces
+set tabstop=4 " each tab represent four spaces.
+set shiftwidth=4 " amount of spaces after >>, 
+    
